@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders registration form 1`] = `
+<div
+  className="RegistrationForm"
+>
+  <h2>
+     Registration Form 
+  </h2>
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <label
+        htmlFor="id"
+      >
+        ID:
+      </label>
+      <input
+        id="id"
+        onChange={[Function]}
+        pattern="\\d*"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label>
+        Name:
+      </label>
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label>
+        Username:
+      </label>
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label>
+        Password:
+      </label>
+      <input
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+    </div>
+    <div>
+      <label>
+        Upload File:
+      </label>
+      <input
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;
